@@ -48,7 +48,7 @@ class BtcTransactionOutputMapper(object):
             output.type = script_pub_key.get('type')
             output.addresses = script_pub_key.get('addresses')
             if not output.addresses:
-                output.addresses = script_pub_key.get('address')
+                output.addresses = [script_pub_key.get('address')]
         return output
 
     def outputs_to_dicts(self, outputs):
