@@ -1,8 +1,8 @@
-# Bitcoin ETL
+# Graphsense fork of Bitcoin ETL
 
-[![Join the chat at https://gitter.im/ethereum-eth](https://badges.gitter.im/ethereum-etl.svg)](https://gitter.im/ethereum-etl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.com/blockchain-etl/bitcoin-etl.png)](https://travis-ci.com/blockchain-etl/bitcoin-etl)
-[Join Telegram Group](https://t.me/joinchat/GsMpbA3mv1OJ6YMp3T5ORQ)
+This fork is a purpose tailored version for the graphsense infrastructure.
+
+Changes preserve nulldata and other script types in the output. Original code can be found at: [upstream bitcoin etl] (https://github.com/blockchain-etl/bitcoin-etl)
 
 Install Bitcoin ETL:
 

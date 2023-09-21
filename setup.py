@@ -10,8 +10,8 @@ def read(fname):
 long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
-    name='bitcoin-etl',
-    version='1.5.1',
+    name='graphsense-bitcoin-etl',
+    version='1.5.3',
     author='Evgeny Medvedev',
     author_email='evge.medvedev@gmail.com',
     description='Tools for exporting Bitcoin blockchain data to JSON',
