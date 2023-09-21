@@ -11,9 +11,9 @@ long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
     name='graphsense-bitcoin-etl',
-    version='1.5.3',
-    author='Evgeny Medvedev',
-    author_email='evge.medvedev@gmail.com',
+    version='1.5.4',
+    author='Iknaio Cryptoasset Analytics GmbH',
+    author_email='contact@ikna.io',
     description='Tools for exporting Bitcoin blockchain data to JSON',
     long_description=long_description,
     long_description_content_type='text/markdown',
