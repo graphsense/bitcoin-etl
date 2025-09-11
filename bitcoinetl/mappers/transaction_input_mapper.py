@@ -43,6 +43,7 @@ class BtcTransactionInputMapper(object):
         input.spent_output_index = json_dict.get('vout')
         input.coinbase_param = json_dict.get('coinbase')
         input.sequence = json_dict.get('sequence')
+        input.txinwitness = json_dict.get('txinwitness')
         if 'scriptSig' in json_dict:
             input.script_asm = (json_dict.get('scriptSig')).get('asm')
             input.script_hex = (json_dict.get('scriptSig')).get('hex')
@@ -63,6 +64,7 @@ class BtcTransactionInputMapper(object):
                 'type': input.type,
                 'addresses': input.addresses,
                 'value': input.value,
+                "txinwitness": input.txinwitness
             }
             result.append(item)
         return result
@@ -81,6 +83,7 @@ class BtcTransactionInputMapper(object):
             input.type = dict.get('type')
             input.addresses = dict.get('addresses')
             input.value = dict.get('value')
+            input.txinwitness = dict.get('txinwitness')
 
             result.append(input)
         return result
